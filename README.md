@@ -33,7 +33,7 @@ O projeto explora abordagens modernas para estruturação de testes automatizado
 
 ## 🔹 Page Object Model (POM)
 
-O padrão **Page Object Model** organiza elementos e ações de uma página em arquivos separados, facilitando a manutenção e reutilização dos testes automatizados. :contentReference[oaicite:0]{index=0}
+O padrão **Page Object Model** organiza elementos e ações de uma página em arquivos separados, facilitando a manutenção e reutilização dos testes automatizados.
 
 ### Benefícios:
 - Centralização dos seletores
@@ -45,7 +45,7 @@ O padrão **Page Object Model** organiza elementos e ações de uma página em a
 
 ## 🔹 App Actions
 
-O conceito de **App Actions** busca interagir diretamente com a lógica da aplicação, reduzindo dependência excessiva da interface gráfica e tornando os testes mais rápidos e estáveis. :contentReference[oaicite:1]{index=1}
+O conceito de **App Actions** busca interagir diretamente com a lógica da aplicação, reduzindo dependência excessiva da interface gráfica e tornando os testes mais rápidos e estáveis.
 
 ### Benefícios:
 - Testes mais rápidos
@@ -68,3 +68,76 @@ O conceito de **App Actions** busca interagir diretamente com a lógica da aplic
  ┣ 📄 package.json
  ┣ 📄 cypress.config.js
  ┗ 📄 README.md
+```
+
+---
+
+# 🚀 Como Executar o Projeto
+
+## Clone o repositório
+
+```bash
+git clone https://github.com/Noobdub55/Exercicio-PageObjects-AppActions.git
+```
+
+## Acesse a pasta
+
+```bash
+cd Exercicio-PageObjects-AppActions
+```
+
+## Instale as dependências
+
+```bash
+npm install
+```
+
+## Execute o Cypress
+
+```bash
+npx cypress open
+```
+
+Ou em modo headless:
+
+```bash
+npx cypress run
+```
+
+---
+
+# 🎯 Aprendizados
+
+Durante este exercício foram praticados conceitos importantes para atuação em QA Automation, como:
+
+- Estruturação de automação
+- Boas práticas em Cypress
+- Reutilização de código
+- Criação de ações reutilizáveis
+- Encapsulamento de elementos
+- Organização de testes E2E
+- Separação entre lógica de teste e interface
+
+---
+
+# 📌 Competências Demonstradas
+
+- Quality Assurance (QA)
+- Automação de Testes
+- Cypress
+- JavaScript
+- Page Object Model
+- App Actions
+- Testes E2E
+- Testes Funcionais
+- GitHub
+- Node.js
+
+---
+
+# 👨‍💻 Autor
+
+Matheus Lima de Aquino
+
+GitHub:
+https://github.com/Noobdub55
